@@ -1,4 +1,4 @@
-.header{
+.header {
     display: block;
     background-image: url('https://images.pexels.com/photos/10329511/pexels-photo-10329511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-repeat: no-repeat;
@@ -10,10 +10,11 @@
 .navbar {
     height: 50px;
     border: 2px solid black;
-    
-    
+
+
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,14 +22,14 @@
     /* border: 10px solid black; */
 }
 
-.nav li{
+.nav li {
     border: 2px solid black;
     margin: 0px 30px 0px 0px;
     list-style: none;
     /* opacity: 0.2;    */
 }
 
-.nav li a{
+.nav li a {
     text-decoration: none;
     color: black;
 }
@@ -37,3 +38,19 @@
     background-color: aqua;
     opacity: 0.2;
 } */
+.b2{ background-color: #daf2ed;
+}
+
+.b2 p { font-size: 50px;
+    color: #000;
+}
+
+#b2 {
+    height: 500px;
+    width: auto;
+    opacity: 0.5;
+    border: 5px solid black;
+    display: flex;
+    font: 1em sans-serif;
+    flex-flow: row;
+}
